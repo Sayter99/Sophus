@@ -1,0 +1,10 @@
+module(name = "Sophus", version = "1.x")
+
+bazel_dep(name = "eigen", version = "3.4.0")
+bazel_dep(name = "fmt", version = "10.2.1")
+bazel_dep(name = "ceres")
+git_override(
+    module_name = "ceres",
+    remote = "https://github.com/Sayter99/ceres-solver.git",
+    commit = "f85ab3cd7ab37f59772dd9d823803e6bd8eca27b",
+)
