@@ -1,5 +1,5 @@
 cc_library(
-    name = "Sophus",
+    name = "sophus",
     hdrs = glob([
         "sophus/**",
     ]),
