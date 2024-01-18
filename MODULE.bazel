@@ -1,4 +1,4 @@
-module(name = "Sophus", version = "1.x")
+module(name = "sophus", version = "1.0")
 
 bazel_dep(name = "eigen", version = "3.4.0")
 bazel_dep(name = "fmt", version = "10.2.1")
